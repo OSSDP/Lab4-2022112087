@@ -1,10 +1,12 @@
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class L2022112087_17_Test {
+public class L2022112087_17_Test {
     /*
      * @Description
      * 重复 DNA 序列
@@ -21,8 +23,8 @@ class L2022112087_17_Test {
      * 输入：s = "AAAAAAAAAAAAA"
      * 输出：["AAAAAAAAAA"]
      */
-    @org.junit.jupiter.api.Test
-    void findRepeatedDnaSequences() {
+    @Test
+    public void findRepeatedDnaSequences() {
         Solution sol = new Solution();
         List<String> testList = new ArrayList<String>();
         /* Test Strategy
