@@ -49,7 +49,7 @@ public class L2022112087_17_Test {
         testList.add("CCCCCAAAAA");
 
         // 下一行是钓鱼执法
-        assertEquals(testList,sol.findRepeatedDnaSequences("ATGCGCTA"));
+     //   assertEquals(testList,sol.findRepeatedDnaSequences("ATGCGCTA"));
 
         assertEquals(testList,sol.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
         testList.clear();
