@@ -45,6 +45,10 @@ class L2022112087_17_Test {
         testList.add("AAAAACCCCC");
         assertEquals(testList,sol.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCC"));
         testList.add("CCCCCAAAAA");
+
+        // 下一行是钓鱼执法
+        assertEquals(testList,sol.findRepeatedDnaSequences("ATGCGCTA"));
+
         assertEquals(testList,sol.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
         testList.clear();
         assertEquals(testList,sol.findRepeatedDnaSequences("ACGTACGTACGTA"));
@@ -55,5 +59,6 @@ class L2022112087_17_Test {
         testList.clear();
         testList.add("AAAAAAAAAA");
         assertEquals(testList,sol.findRepeatedDnaSequences("AAAAAAAAAAA"));
+
     }
 }
